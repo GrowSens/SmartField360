@@ -17,9 +17,8 @@
 
 ## 🎯 Segmentos objetivo
 
-- **Agricultores pequeños y medianos** que desean mejorar el control sobre sus cultivos y recursos.
-- **Empresas agrícolas** que buscan optimizar la producción, automatizar procesos y reducir costos operativos.
-- **Personas interesadas en tener un huerto urbano o doméstico**, incluso con baja alfabetización digital.
+- **Empresas Agropecuarias y Agrícolas** que buscan soluciones para aumentar su producción y reducir costos.
+- **Personas de entre 15 a 60 años**que están interesadas en tener un propio huerto y auto sustentar parte de sus alimentos
 
 ---
 
