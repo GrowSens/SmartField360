@@ -1,0 +1,1 @@
+xcopy public docs /E /I /Y
