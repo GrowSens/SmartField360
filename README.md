@@ -18,7 +18,7 @@
 ## 🎯 Segmentos objetivo
 
 - **Empresas Agropecuarias y Agrícolas** que buscan soluciones para aumentar su producción y reducir costos.
-- **Personas de entre 15 a 60 años**que están interesadas en tener un propio huerto y auto sustentar parte de sus alimentos
+- **Personas de entre 15 a 60 años** que están interesadas en tener un propio huerto y auto sustentar parte de sus alimentos
 
 ---
 
