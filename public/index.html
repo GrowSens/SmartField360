@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>SmartField360</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="assets/images/PHOTOlogo_smartfield360_whitebg.png" alt="SmartField360" />
+    </div>
+    <div class="header-right">
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#nosotros">Nosotros</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="btn">Iniciar Sesión</a>
+            <a href="#" class="btn">Registrarse</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero-slider">
+    <div class="slider-track" id="sliderTrack">
+        <img src="assets/images/b5.jpg" alt="Imagen 1" />
+        <img src="assets/images/b1.jpg" alt="Imagen 2" />
+        <img src="assets/images/b2.png" alt="Imagen 3" />
+        <img src="assets/images/b3.jpg" alt="Imagen 4" />
+        <img src="assets/images/b4.jpg" alt="Imagen 5" />
+    </div>
+
+    <button class="nav prev" onclick="moveSlide(-1)">❮</button>
+    <button class="nav next" onclick="moveSlide(1)">❯</button>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="assets/images/Antracnosis-en-plantas.jpg.png" alt="Detección de plagas" />
+            <h3>Detector de plagas y enfermedades</h3>
+            <p>Detecta diferentes plagas y enfermedades en etapa temprana en tus cultivos.</p>
+        </div>
+        <div class="card">
+            <img src="assets/images/Control.png" alt="Control de riego" />
+            <h3>Administrador de recursos</h3>
+            <p>Aumenta la eficiencia de recursos y reduce el costo de producción.</p>
+        </div>
+        <div class="card">
+            <img src="assets/images/calculadorafinanciera.png" alt="Reportes personalizados" />
+            <h3>Calculadora financiera</h3>
+            <p>Calculadora basada en datos, prediciendo las ganancias de las cosechas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="caracteristicas">
+    <h2>Nuestras características principales</h2>
+    <div class="caracteristicas-container">
+        <div class="cardsC">
+            <div class="cardC">
+                <h3>Monitoreo en tiempo real</h3>
+                <p>Monitoreo constante de las condiciones del cultivo (temperatura, humedad, enfermedades, etc).</p>
+            </div>
+            <div class="cardC">
+                <h3>Base de datos agrícolas</h3>
+                <p>Navegador con conocimiento de diversas plagas, enfermedades, pesticidas y abonos.</p>
+            </div>
+        </div>
+        <div class="caracteristicas-imagenes">
+            <img src="assets/images/Monitoreo.png" alt="Cultivo 1" />
+            <img src="assets/images/Reporte.png" alt="Cultivo 2" />
+        </div>
+    </div>
+</section>
+
+<section id="beneficios">
+    <h2>Beneficios</h2>
+    <div class="beneficios-container">
+        <div class="beneficio-card">
+            <div class="cardB">
+                <ul>
+                    <li>Aumento del rendimiento de los cultivos.</li>
+                    <li>Reducción de costos operativos.</li>
+                    <li>Mejora de la calidad y la consistencia de los productos agrícolas.</li>
+                    <li>Toma de decisiones informada basada en datos precisos.</li>
+                    <li>Optimización de la cadena de suministro y la logística.</li>
+                    <li>Mayor capacitación de personal.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="beneficio-img">
+            <img src="assets/images/Beneficios.png" alt="Beneficios visuales" />
+        </div>
+    </div>
+</section>
+
+
+<section id="nosotros">
+    <h2>Acerca de Nosotros</h2>
+    <div class="cardsN">
+        <div class="cardN">
+            <h3>¿Quiénes Somos?</h3>
+            <p>Somos una plataforma innovadora que busca utilizar la inteligencia artificial y la visión por computadora para mejorar la gestión de cultivos.</p>
+        </div>
+        <div class="cardN">
+            <h3>Visión</h3>
+            <p>Empoderar a los agricultores para usar la IA para mejorar el cuidado de cultivos y promover la agricultura sostenible y eficiente.</p>
+        </div>
+        <div class="cardN">
+            <h3>Misión</h3>
+            <p>Hacer que la tecnología sea un aliado claro para todos los agricultores, ayudando a sus cultivos y apoyando un futuro agrario más sostenible y productivo.</p>
+        </div>
+    </div>
+</section>
+
+<section id="descargar">
+    <h2>Descarga nuestra app</h2>
+    <div class="store-links">
+        <a href="#"><img src="assets/images/play%20store.png" alt="Google Play" /></a>
+        <a href="#"><img src="assets/images/app%20store.png" alt="App Store" /></a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 SmartField360. Todos los derechos reservados.</p>
+    <div class="footer-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</footer>
+
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
