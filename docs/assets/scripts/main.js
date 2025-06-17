@@ -1,4 +1,3 @@
-console.log("¡SmartField360 Landing Page cargada!");
 
 const track = document.getElementById('sliderTrack');
 const slides = Array.from(track.children);

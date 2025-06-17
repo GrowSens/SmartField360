@@ -75,13 +75,13 @@ nav a {
 #nosotros,
 #descargar {
     padding: 3rem 1rem;
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
     width: 100%;
 }
 
 .hero {
-    background: url('img/3agricultura.png') no-repeat center center/cover;
+    background: url('public/assets/images/3agricultura.png') no-repeat center center/cover;
     height: 300px;
     display: flex;
     align-items: flex-start;
@@ -261,8 +261,8 @@ h2 {
 }
 /* NOSOTROS */
 .cardsN {
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
@@ -270,8 +270,49 @@ h2 {
     background: #f7f7f7;
     border-radius: 8px;
     padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cardN-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cardN-title {
+    flex: 1;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4CAF4F;
+    font-size: 1.2rem;
+    font-weight: bold;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cardN-text {
+    flex: 3;
+    min-width: 250px;
+}
+
+/* ✅ Responsive para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .cardN-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardN-title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardN-text {
+        text-align: justify;
+    }
 }
 
 /* FOOTER */
